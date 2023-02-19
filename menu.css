@@ -1,0 +1,62 @@
+body {
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: auto;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #111111;
+    padding: 3px 3px;
+}
+
+nav {
+    float: right;
+    margin-right: 93px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    font-size: 13px;
+    justify-content: flex-end;
+    margin: 5px 5px;
+}
+
+.topnav .paid_services{
+    background-color: #CA2B37;
+}
+
+.topnav .membership {
+    background-color: #3B91EB;
+}
+
+.topnav .notif{
+    background-color: #393333;
+}
+
+.topnav .search-box {
+    background-color: bisque;
+}
+
+.topnav .logo {
+    color: red;
+    font-size: 20px;
+    padding: 6px 113px;
+    float: left;
+    text-decoration: none;
+}
